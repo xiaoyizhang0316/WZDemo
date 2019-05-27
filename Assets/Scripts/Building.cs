@@ -10,5 +10,10 @@ public class Building : ScriptableObject
     [SerializeField] string buildingName;
 
 
+    public string GetBuildingName()
+    {
+        return buildingName;
+    }
+
 
 }
