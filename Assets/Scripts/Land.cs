@@ -8,6 +8,7 @@ public class Land : MonoBehaviour
 
     [SerializeField] private string landId;
     [SerializeField] private Building[] availableBuilding;
+    [SerializeField] public GameObject bigMapLand;
     private Building landBuilding;
 
 
@@ -22,13 +23,13 @@ public class Land : MonoBehaviour
         return availableBuilding;
     }
 
-    public void setLandBuilding(Building building)
+    public void SetLandBuilding(Building building)
     {
         landBuilding = building;
     }
 
 
-    public Building getLandBuilding()
+    public Building GetLandBuilding()
     {
         return landBuilding;
     }

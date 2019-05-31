@@ -11,19 +11,19 @@ public class DestroyBuilding : MonoBehaviour
     public void CheckStatus(Land land)
     {
         targetLand = land;
-        if (targetLand.getLandBuilding() != null)
+        if (targetLand.GetLandBuilding() != null)
             gameObject.SetActive(true);
         else
-        gameObject.SetActive(false);
-
-        Debug.Log(targetLand.getLandBuilding());
+            gameObject.SetActive(false);
+        Debug.Log(targetLand.GetLandBuilding());
 
     }
 
     public void RunDestroy()
     {
-        targetLand.setLandBuilding(null);
+        targetLand.SetLandBuilding(null);
         targetLand.GetComponentInChildren<Text>().text = targetLand.GetLandId();
+        targetLand.bigMapLand.SetActive(false);
     }
 
     // Start is called before the first frame update
@@ -35,8 +35,7 @@ public class DestroyBuilding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(targetLand)
-            CheckStatus(targetLand);
+        
     }
 
 

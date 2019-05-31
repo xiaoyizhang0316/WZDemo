@@ -9,6 +9,8 @@ public class Building : ScriptableObject
 {
     [SerializeField] string buildingName;
 
+    [SerializeField] Building[] upstreamResource;
+    [SerializeField] Building[] downStreamResource;
 
     public string GetBuildingName()
     {

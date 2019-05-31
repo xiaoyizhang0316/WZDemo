@@ -1,22 +1,25 @@
 ﻿<Properties StartupConfiguration="{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DestroyBuilding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Otherland.cs">
     <Files>
-      <File FileName="Assets/Scripts/BuildingController.cs" Line="22" Column="37" />
-      <File FileName="Assets/Scripts/MainController.cs" Line="9" Column="39" />
-      <File FileName="Assets/Scripts/BuildingMenu.cs" Line="52" Column="6" />
-      <File FileName="Assets/Scripts/Land.cs" Line="31" Column="29" />
-      <File FileName="Assets/Scripts/Building.cs" Line="7" Column="1" />
-      <File FileName="Assets/Scripts/Gear.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/Attachment.cs" Line="7" Column="1" />
-      <File FileName="Assets/DestroyBuilding.cs" Line="50" Column="6" />
+      <File FileName="Assets/Scripts/Player.cs" Line="24" Column="9" />
+      <File FileName="Assets/Scripts/Land.cs" Line="9" Column="43" />
+      <File FileName="Assets/Scripts/Building.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/BuildingMenu.cs" Line="15" Column="27" />
+      <File FileName="Assets/Scripts/MainController.cs" Line="4" Column="22" />
+      <File FileName="Assets/Scripts/DestroyBuilding.cs" Line="1" Column="26" />
+      <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="15" Column="9" />
+      <File FileName="Assets/Scripts/PlayerLand.cs" Line="14" Column="37" />
+      <File FileName="Assets/Scripts/Gear.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Otherland.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Demo" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
-              <Node name="DestroyBuilding.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Otherland.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -25,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eae28a6b-1b82-43a3-93b0-95bf2d3f77a2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d248f045-b8cf-4819-8dd4-f08b7be46e08" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -11,10 +11,10 @@ public class MainController : MonoBehaviour
 
     public void ToggleShow()
     {
-
         gameObject.SetActive(!state);
         state = !state;
     }
+
     // Start is called before the first frame update
 
     void Start()

@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class BuildingMenu : MonoBehaviour
 {
 
-
+    Gear[] gearList;
+    Attachment[] attachmentList;
     [SerializeField] Building buildingName;
     Land targetLand;
 
@@ -31,14 +32,11 @@ public class BuildingMenu : MonoBehaviour
     public void Build()
     {
         targetLand.GetComponentInChildren<Text>().text = buildingName.GetBuildingName();
-        targetLand.setLandBuilding(buildingName);
-
+        targetLand.SetLandBuilding(buildingName);
+        targetLand.bigMapLand.SetActive(true);
+        targetLand.bigMapLand.GetComponentInChildren<Text>().text = buildingName.GetBuildingName();
     }
 
-    public void Show()
-    {
-        Debug.Log('1');
-    }
     // Start is called before the first frame update
     void Start()
     {
