@@ -32,11 +32,14 @@ public class BuildingMenu : MonoBehaviour
     public void Build()
     {
         targetLand.GetComponentInChildren<Text>().text = buildingName.GetBuildingName();
+        targetLand.GetComponentInChildren<Image>().color = buildingName.GetBuildingColor();
         targetLand.SetLandBuilding(buildingName);
         targetLand.bigMapLand.SetActive(true);
         targetLand.bigMapLand.GetComponentInChildren<Text>().text = buildingName.GetBuildingName();
-    }
+        targetLand.bigMapLand.GetComponentInChildren<Image>().color = buildingName.GetBuildingColor();
+        targetLand.bigMapLand.GetComponentInChildren<PlayerLand>().SetPlayerBuilding(buildingName);
 
+    }
     // Start is called before the first frame update
     void Start()
     {

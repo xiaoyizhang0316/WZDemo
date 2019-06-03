@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Otherland.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="24" Column="9" />
-      <File FileName="Assets/Scripts/Land.cs" Line="9" Column="43" />
+      <File FileName="Assets/Scripts/Land.cs" Line="11" Column="51" />
       <File FileName="Assets/Scripts/Building.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/BuildingMenu.cs" Line="15" Column="27" />
+      <File FileName="Assets/Scripts/BuildingMenu.cs" Line="37" Column="100" />
       <File FileName="Assets/Scripts/MainController.cs" Line="4" Column="22" />
-      <File FileName="Assets/Scripts/DestroyBuilding.cs" Line="1" Column="26" />
+      <File FileName="Assets/Scripts/DestroyBuilding.cs" Line="18" Column="49" />
       <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="15" Column="9" />
       <File FileName="Assets/Scripts/PlayerLand.cs" Line="14" Column="37" />
       <File FileName="Assets/Scripts/Gear.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Otherland.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/Otherland.cs" Line="13" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d248f045-b8cf-4819-8dd4-f08b7be46e08" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7e17114b-520d-4be6-aec6-acb410fcf93a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

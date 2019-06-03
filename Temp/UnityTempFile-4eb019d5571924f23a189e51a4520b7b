@@ -304,5 +304,6 @@
 "Assets/Scripts/Land.cs"
 "Assets/Scripts/MainController.cs"
 "Assets/Scripts/NewBehaviourScript.cs"
+"Assets/Scripts/Otherland.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerLand.cs"

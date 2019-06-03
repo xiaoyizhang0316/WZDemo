@@ -296,7 +296,6 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/NewBehaviourScript.cs"
 "Assets/Scripts/Attachment.cs"
 "Assets/Scripts/Building.cs"
 "Assets/Scripts/BuildingMenu.cs"
@@ -304,4 +303,7 @@
 "Assets/Scripts/Gear.cs"
 "Assets/Scripts/Land.cs"
 "Assets/Scripts/MainController.cs"
+"Assets/Scripts/NewBehaviourScript.cs"
+"Assets/Scripts/Otherland.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayerLand.cs"

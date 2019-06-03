@@ -16,3 +16,4 @@ MonoBehaviour:
   upstreamResource: []
   downStreamResource:
   - {fileID: 11400000, guid: fba60804de24f48f19411926a9ee4fbe, type: 2}
+  buildingColor: {r: 0.6415094, g: 0.493236, b: 0.493236, a: 1}
