@@ -210,6 +210,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6857443543013166356, guid: ae0057cc2fc90404e9823de5c7f388a4,
+          type: 3}
+        m_MethodName: CheckOtherLandAvailability
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 394626005}
+          m_ObjectArgumentAssemblyTypeName: Otherland, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &394626005
@@ -225,5 +237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   landBuilding: {fileID: 0}
-  buildingMenu: {fileID: 2142569200450176627, guid: 12399d4a99a35406c9591dc6669fc310,
+  buildingList: {fileID: 6857443543013163755, guid: ae0057cc2fc90404e9823de5c7f388a4,
     type: 3}
+  availableBuilding: []

@@ -9,6 +9,7 @@ public class BuildingMenu : MonoBehaviour
     Attachment[] attachmentList;
     [SerializeField] Building buildingName;
     Land targetLand;
+    Otherland targetOtherLand;
 
     public void CheckAvailbility(Land land)
     {
@@ -27,6 +28,21 @@ public class BuildingMenu : MonoBehaviour
             gameObject.SetActive(true);
 
         Debug.Log(targetLand);
+    }
+
+    public Building GetBuilding()
+    {
+        return buildingName;
+    }
+
+    public Land GetLand()
+    {
+        return targetLand;
+    }
+
+    public Otherland GetOtherland()
+    {
+        return targetOtherLand;
     }
 
     public void Build()

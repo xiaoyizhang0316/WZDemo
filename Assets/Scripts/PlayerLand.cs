@@ -13,7 +13,17 @@ public class PlayerLand : MonoBehaviour
     {
         Otherland[] tempLand = FindObjectsOfType<Otherland>();
         for (int i = 0; i < tempLand.Length; i++)
-            tempLand[i].GetComponent<Image>().color = Color.white;
+        {
+            if(tempLand[i].landBuilding != null)
+            {
+                if (tempLand[i].players)
+                    tempLand[i].GetComponentInChildren<Image>().color = tempLand[i].landBuilding.GetBuildingColor();
+                else
+                    tempLand[i].GetComponent<Image>().color = Color.white;
+            }
+
+        }
+
 
         for (int i = 0; i < tempLand.Length; i++)
         {

@@ -7,7 +7,9 @@ public class Otherland : MonoBehaviour
 {
 
     [SerializeField] public Building landBuilding;
-    [SerializeField] public GameObject buildingMenu;
+    [SerializeField] public GameObject buildingList;
+    [SerializeField] public Building[] availableBuilding;
+    public bool players;
 
     public void ShowUpstreamDownstream()
     {
@@ -16,7 +18,26 @@ public class Otherland : MonoBehaviour
         for (int i = 0; i < tempPlayerLand.Length; i++)
             tempPlayerLand[i].GetComponent<Image>().color = tempPlayerLand[i].playerBuilding.GetBuildingColor();
         for (int i = 0; i < tempOtherLand.Length; i++)
-            tempOtherLand[i].GetComponent<Image>().color = Color.white;
+        {
+            if (tempOtherLand[i].landBuilding != null)
+            {
+                if(tempOtherLand[i].players)
+                    tempOtherLand[i].GetComponentInChildren<Image>().color = tempOtherLand[i].landBuilding.GetBuildingColor();
+                else
+                {
+                    tempOtherLand[i].GetComponentInChildren<Image>().color = Color.white;
+                    tempOtherLand[i].GetComponentInChildren<Text>().text = tempOtherLand[i].landBuilding.GetBuildingName();
+                }
+
+            }  
+            else
+            {
+                tempOtherLand[i].GetComponentInChildren<Text>().text = "空地";
+                tempOtherLand[i].GetComponentInChildren<Text>().color = Color.white;
+                tempOtherLand[i].GetComponentInChildren<Image>().color = Color.black;
+            }
+        }
+            
         for(int i = 0; i < tempPlayerLand.Length; i++)
         {
             if (tempPlayerLand[i].playerBuilding != null)
@@ -37,13 +58,25 @@ public class Otherland : MonoBehaviour
                 }
             }
         }
-
+        if (players)
+            GetComponentInChildren<Image>().color = landBuilding.GetBuildingColor();
     }
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        players = false;
+        if (landBuilding != null)
+            GetComponentInChildren<Text>().text = landBuilding.GetBuildingName();
+        else
+        {
+            GetComponentInChildren<Text>().text = "空地";
+            GetComponentInChildren<Text>().color = Color.white;
+            GetComponentInChildren<Image>().color = Color.black;
+        }
+            
         //gameObject.SetActive(false);    
     }
 

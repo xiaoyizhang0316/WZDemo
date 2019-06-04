@@ -64,12 +64,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Attachment.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
+    <Compile Include="Assets\Scripts\BuildingList.cs" />
     <Compile Include="Assets\Scripts\BuildingMenu.cs" />
+    <Compile Include="Assets\Scripts\ConfirmMenu.cs" />
     <Compile Include="Assets\Scripts\DestroyBuilding.cs" />
     <Compile Include="Assets\Scripts\Gear.cs" />
     <Compile Include="Assets\Scripts\Land.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Otherland.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerLand.cs" />
