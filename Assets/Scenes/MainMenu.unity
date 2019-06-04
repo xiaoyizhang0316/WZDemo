@@ -12464,6 +12464,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2142569201429329671, guid: 12399d4a99a35406c9591dc6669fc310,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2142569201833459575, guid: 12399d4a99a35406c9591dc6669fc310,
         type: 3}
       propertyPath: m_AnchorMax.x
