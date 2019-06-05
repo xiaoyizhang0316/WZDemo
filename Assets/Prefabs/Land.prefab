@@ -95,6 +95,7 @@ MonoBehaviour:
   landId: 
   availableBuilding: []
   bigMapLand: {fileID: 0}
+  landLine: {fileID: 0}
 --- !u!1 &3462250650224963640
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,3 +327,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fba60804de24f48f19411926a9ee4fbe, type: 2}
   - {fileID: 11400000, guid: 845e9e32cc1604fd9b18a9c35beddaa4, type: 2}
   bigMapLand: {fileID: 0}
+  landLine: {fileID: 206574383901566327, guid: 15edeea3529224d2db6c412ec0a3774e, type: 3}

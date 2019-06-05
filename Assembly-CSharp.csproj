@@ -62,6 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Polyline Editor\Examples\Example1_Path\Scripts\PathMovement.cs" />
+    <Compile Include="Assets\Polyline Editor\Examples\Example2_Simple2DTerrainEditor\Libs\Triangluator.cs" />
+    <Compile Include="Assets\Polyline Editor\Examples\Example2_Simple2DTerrainEditor\Scripts\Simple2DTerrain.cs" />
+    <Compile Include="Assets\Polyline Editor\Scripts\Polyline.cs" />
     <Compile Include="Assets\Scripts\Attachment.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
     <Compile Include="Assets\Scripts\BuildingList.cs" />
@@ -70,9 +74,9 @@
     <Compile Include="Assets\Scripts\DestroyBuilding.cs" />
     <Compile Include="Assets\Scripts\Gear.cs" />
     <Compile Include="Assets\Scripts\Land.cs" />
+    <Compile Include="Assets\Scripts\Line.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
     <Compile Include="Assets\Scripts\Otherland.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerLand.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/xiaoyizhang/Documents/test/Demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

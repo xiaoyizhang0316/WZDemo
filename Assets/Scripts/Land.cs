@@ -10,11 +10,22 @@ public class Land : MonoBehaviour
     [SerializeField] private Building[] availableBuilding;
     [SerializeField] public GameObject bigMapLand;
     private Building landBuilding;
-
+    List<Line> buildingLine;
 
     public string GetLandId()
     {
-        return landId;
+        return landId; 
+    }
+
+    public void MakeLine()
+    {
+        Line tempLine = FindObjectOfType<Line>();
+        Instantiate(tempLine);
+        Vector2 temp1 = new Vector2(GetComponent<Transform>().position.x, GetComponent<Transform>().position.y);
+        Vector2 temp2 = new Vector2(GetComponent<Transform>().position.x - 1, GetComponent<Transform>().position.y - 1);
+        tempLine.SetPosition(temp1,temp2);
+        tempLine.GenerateLine();
+        buildingLine.Add(tempLine);
     }
 
 
