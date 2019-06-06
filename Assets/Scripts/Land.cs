@@ -5,7 +5,10 @@ using UnityEngine.UI;
 
 public class Land : MonoBehaviour
 {
-
+    private bool isSetUpstream;
+    private bool isSetDownStream;
+    [SerializeField] SetUpstream upstreamOption;
+    [SerializeField] SetDownStream downstreamOption;
     [SerializeField] private string landId;
     [SerializeField] private Building[] availableBuilding;
     [SerializeField] public GameObject bigMapLand;
@@ -28,6 +31,11 @@ public class Land : MonoBehaviour
         buildingLine.Add(tempLine);
     }
 
+    public void SetUpstream()
+    {
+        upstreamOption.targetLand = this;
+
+    }
 
     public Building[] GetAvailbleBuilding()
     {
