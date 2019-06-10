@@ -308,6 +308,7 @@
 "Assets/Scripts/MainController.cs"
 "Assets/Scripts/Otherland.cs"
 "Assets/Scripts/PlayerLand.cs"
+"Assets/Scripts/SetDownStream.cs"
 "Assets/Scripts/SetUpstream.cs"
 "Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs"
 "Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs"

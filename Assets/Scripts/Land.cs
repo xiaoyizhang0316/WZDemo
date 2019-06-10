@@ -31,10 +31,11 @@ public class Land : MonoBehaviour
         buildingLine.Add(tempLine);
     }
 
-    public void SetUpstream()
+    public void SetUpstream(Land land)
     {
-        upstreamOption.targetLand = this;
-
+        upstreamOption.targetLand = land;
+        upstreamOption.ResetColor();
+        Debug.Log(land.GetComponent<Transform>().position);
     }
 
     public Building[] GetAvailbleBuilding()
